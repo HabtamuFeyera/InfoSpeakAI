@@ -156,28 +156,4 @@ The workflow is defined as a state graph with the following nodes:
 
 The workflow leverages LangGraph for state management and checkpointing (using `MemorySaver`), enabling persistent state during iterative revisions.
 
-## Project Structure
-
-```
-
-## Troubleshooting
-
-- **Missing API Keys:**  
-  If the script raises an error regarding missing API keys, ensure your `.env` file is correctly set up and located in the project root.
-
-- **File Not Found Errors:**  
-  Verify that the JSON data files exist at the specified paths. Update the file paths in the code if necessary.
-
-- **Pinecone Index Issues:**  
-  Ensure your Pinecone API key is valid and that you have the necessary permissions. The script automatically creates the index if it does not exist.
-
-- **Dependency Errors:**  
-  Double-check that all required libraries are installed. Use `pip install <library-name>` to install any missing dependencies.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 This README provides a comprehensive guide to understanding, setting up, and running the AI agent. Adjust paths, API keys, and additional settings as needed for your environment. Enjoy building and iterating on your speech generation agent!
