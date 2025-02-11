@@ -155,5 +155,3 @@ The workflow is defined as a state graph with the following nodes:
    Determines whether further revisions are necessary based on a maximum revision count.
 
 The workflow leverages LangGraph for state management and checkpointing (using `MemorySaver`), enabling persistent state during iterative revisions.
-
-This README provides a comprehensive guide to understanding, setting up, and running the AI agent. Adjust paths, API keys, and additional settings as needed for your environment. Enjoy building and iterating on your speech generation agent!
