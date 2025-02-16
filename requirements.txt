@@ -1,8 +1,0 @@
-streamlit
-langchain_openai
-pinecone
-tavily
-langgraph
-pandas
-numpy
-python-dotenv
